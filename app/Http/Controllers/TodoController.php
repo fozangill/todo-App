@@ -68,8 +68,6 @@ class TodoController extends Controller
         ]);
         $eventId = $event->id;
 
-//        sleep(3);
-
         $todo = new Todo();
 
         $todo->event_id = $eventId;
