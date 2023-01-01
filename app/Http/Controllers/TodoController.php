@@ -146,8 +146,6 @@ class TodoController extends Controller
 
         ]);
 
-        sleep(4);
-
         $todo = Todo::find($id);
 
         $todo->update($request->all());
